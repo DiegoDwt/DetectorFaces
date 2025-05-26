@@ -3,7 +3,6 @@ from tkinter import filedialog, messagebox
 from pathlib import Path
 from PIL import Image, ImageTk
 import socket
-import os
 
 SERVER_HOST = '127.0.0.1'
 SERVER_PORT = 5000
@@ -16,7 +15,7 @@ class ClientApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Detector de Faces")
-        self.root.geometry("520x650")
+        self.root.geometry("520x650")   
         self.root.configure(bg="#ecf0f1")
 
         self.image_path = None

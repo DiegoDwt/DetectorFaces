@@ -1,8 +1,6 @@
 import cv2
 import os
 import numpy as np
-import time
-from collections import Counter
 
 # Caminhos para diferentes classificadores
 CASCADE_PATHS = {

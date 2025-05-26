@@ -1,9 +1,7 @@
 import socket
-import threading
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from image_processor import process_image
-import time
 
 SERVER_HOST = "0.0.0.0"
 SERVER_PORT = 5000
